@@ -220,6 +220,9 @@ li a{
 .about-text {
     height: auto;
     width: 40%;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: justify;
 }
 .social-icons {
     display: flex;
@@ -227,10 +230,29 @@ li a{
     justify-content: space-around;
     font-size: 2rem;
     width: 30%;
-    margin: 25% 35%;
+    margin: 25% 35%  5% 35%;
     padding-top: 30px;
 
 }
+.flexbox {
+    display: flex;
+    width: 100px;
+    margin-left: 39%;
+    margin-bottom: 20%;
+}
+.phone-email {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.phone-email span {
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.phone-email i {
+    font-size: 2rem;
+}
+
 /* MOBILE VIEW */
 @media(max-width: 768px) {
     #nav {
