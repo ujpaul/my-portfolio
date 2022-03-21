@@ -101,8 +101,8 @@ li a{
 }
 .resume-cta{
     border: 2px solid var(--blue-text);
-    width: 175px;
-    padding: 30px;
+    width: 145px;
+    padding: 10px;
     margin-top: 20px;
 }
 .resume-cta:hover{
@@ -251,6 +251,27 @@ li a{
 }
 .phone-email i {
     font-size: 2rem;
+}
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+.footer ul {
+    padding: 20px;
+}
+.footer ul li :hover {
+    text-decoration: underline;
+    color: var(--blue-text);
+}
+.footer h4 {
+    margin-bottom: 20px;
 }
 
 /* MOBILE VIEW */
