@@ -130,7 +130,19 @@ li a{
     justify-content: center;
     flex-flow: wrap;
 }
-.office-project{
+.commerce-project{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.movie-project{
     width: 400px;
     height: 400px;
     background: #fff;
@@ -142,19 +154,7 @@ li a{
     background-size: cover;
     background-position: center;
 }
-.store-project{
-    width: 400px;
-    height: 400px;
-    background: #fff;
-    position: relative;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin: 50px;
-    background-image: url(/images/store.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.sport-project{
+.ngo-project{
     width: 400px;
     height: 400px;
     background: #fff;
@@ -299,19 +299,7 @@ li a{
         box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         margin: 50px;
-        background-image: url(/images/netflix-logo.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    .store-project{
-        width: 250px;
-        height: 400px;
-        background: #fff;
-        position: relative;
-        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
-        margin: 50px;
-        background-image: url(/images/store.jpg);
+        /* background-image: url(/images/logo.jpg); */
         background-size: cover;
         background-position: center;
     }
